@@ -31,8 +31,13 @@ public class VectorSpaceModel {
         HashSet<String> stopWords = StopWordsHelper.getInstance().getStopWords();
         while(count < 2 && newQueryIter.hasNext()){
             String word = newQueryIter.next().toLowerCase();
+            //If the word is in the stop word list, ignore
             if(stopWords.contains(word))
                 continue;
+            //If the word is not character or digit, ignore
+            if(!Character.isLetterOrDigit(word.charAt(0)) || !Character.isLetterOrDigit(word.charAt(word.length()-1)))
+                continue;
+            //If the word is not in the original query, increment count
             if(!originQueryList.contains(word))
                 count++;
             newQueryList.add(word);
