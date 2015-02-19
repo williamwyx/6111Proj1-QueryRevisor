@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import org.apache.commons.codec.binary.Base64;
 
 public class BingTest {
-	public final static int RESULTNUM = 3;
+	public final static int RESULTNUM = 10;
 	public String accountKey;
 	public String query;
 	public double bar;
@@ -31,7 +31,7 @@ public class BingTest {
 			times++;
 			if (times > 1)
 				printFb(precision);
-			String newQuery = reviseQuery(docs);
+			reviseQuery(docs);
 			docs.get(0).clear();
 			docs.get(1).clear();
 
@@ -83,12 +83,12 @@ public class BingTest {
 		System.out.println(modifyQuery());
 	}
 
-	private String reviseQuery(ArrayList<ArrayList<String>> docs) {
+	private void reviseQuery(ArrayList<ArrayList<String>> docs) {
 		if (docs.get(0).isEmpty() && docs.get(1).isEmpty()) {
-			return query;
+			return;
 		}
 		VectorSpaceModel vs = new VectorSpaceModel(query, docs);
-		return query;
+		query = vs.reviseQuery();
 	}
 
 	private ArrayList<Integer> splitResults(String content) {
@@ -241,8 +241,8 @@ public class BingTest {
 	}
 
 	public static void main(String[] args) throws IOException {
-		String query = "XBOX";
-		double bar = 0.6;
+		String query = "gates";
+		double bar = 0.9;
 		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
 		BingTest bing = new BingTest(accountKey, query, bar);
 
