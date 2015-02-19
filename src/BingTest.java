@@ -8,23 +8,19 @@ import java.util.ArrayList;
 import org.apache.commons.codec.binary.Base64;
 
 public class BingTest {
-	final static int RESULTNUM = 3;
+	public final static int RESULTNUM = 3;
+	public String accountKey;
+	public String query;
+	public double bar;
+	public String bingUrl;
 
-	public static void main(String[] args) throws IOException {
-		String query = "XBOX";
-		double bar = 0.5;
-
-		startSearching(query, bar);
+	BingTest(String accountKey, String query, double bar) {
+		this.accountKey = accountKey;
+		this.query = query;
+		this.bar = bar;
 	}
 
-	private static void startSearching(String query, double bar)
-			throws IOException {
-		// Provide your account key here.
-		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
-		byte[] accountKeyBytes = Base64
-				.encodeBase64((accountKey + ":" + accountKey).getBytes());
-		String accountKeyEnc = new String(accountKeyBytes);
-
+	public void startSearching() throws IOException {
 		int ret = 0;
 		int times = 0;
 		double precision = 0;
@@ -33,12 +29,14 @@ public class BingTest {
 		docs.add(new ArrayList<String>());
 		while (precision < bar) {
 			times++;
-			String newQuery = reviseQuery(query, docs);
+			if (times > 1)
+				printFb(precision);
+			String newQuery = reviseQuery(docs);
 			docs.get(0).clear();
 			docs.get(1).clear();
+
 			// The content string is the xml/json output from Bing.
-			String content = searchForContent(newQuery, accountKeyEnc);
-			System.out.println("Query this time: " + query);
+			String content = searchForContent();
 			ret = parseAndDisplay(content, docs);
 			if (ret == -2) {
 				System.out.println("Invalid content.");
@@ -52,17 +50,17 @@ public class BingTest {
 				System.out.println("No relevent search results.");
 				return;
 			}
-			precision = ret * 1.0 / RESULTNUM;
-			System.out.println("-----Precision: "
-					+ String.format("%1$.3f", precision) + "-----");
-			System.out.println("------------------------------\n");
+			precision = ret * 1.0 / RESULTNUM; 
 		}
+		printFb(precision);
 	}
 
-	private static String searchForContent(String query, String accountKeyEnc)
-			throws IOException {
-		String modifiedQuery = modifyQuery(query);
-		String bingUrl = "https://api.datamarket.azure.com/Bing/Search/Web?Query=%27"
+	private String searchForContent() throws IOException {
+		byte[] accountKeyBytes = Base64
+				.encodeBase64((accountKey + ":" + accountKey).getBytes());
+		String accountKeyEnc = new String(accountKeyBytes);
+		String modifiedQuery = modifyQuery();
+		bingUrl = "https://api.datamarket.azure.com/Bing/Search/Web?Query=%27"
 				+ modifiedQuery + "%27&$top=" + RESULTNUM + "&$format=Atom";
 		URL url = new URL(bingUrl);
 		URLConnection urlConnection = url.openConnection();
@@ -77,24 +75,23 @@ public class BingTest {
 		return content;
 	}
 
-	private static String modifyQuery(String query) {
+	private String modifyQuery() {
 		return query.replaceAll(" ", "%20");
 	}
 
-	private static void testModifyQuery(String query) {
-		System.out.println(modifyQuery(query));
+	private void testModifyQuery() {
+		System.out.println(modifyQuery());
 	}
 
-	private static String reviseQuery(String query,
-			ArrayList<ArrayList<String>> docs) {
+	private String reviseQuery(ArrayList<ArrayList<String>> docs) {
 		if (docs.get(0).isEmpty() && docs.get(1).isEmpty()) {
 			return query;
 		}
 		VectorSpaceModel vs = new VectorSpaceModel(query, docs);
-		return vs.reviseQuery();
+		return query;
 	}
 
-	private static ArrayList<Integer> splitResults(String content) {
+	private ArrayList<Integer> splitResults(String content) {
 		ArrayList<Integer> index = new ArrayList<Integer>();
 
 		int num = 0;
@@ -117,7 +114,7 @@ public class BingTest {
 		return index;
 	}
 
-	private static void testSplitResults(String content) {
+	private void testSplitResults(String content) {
 		ArrayList<Integer> index = splitResults(content);
 
 		if (index.size() < 3) {
@@ -135,7 +132,7 @@ public class BingTest {
 		return;
 	}
 
-	private static String[] splitItem(String item) {
+	private String[] splitItem(String item) {
 		String[] res = new String[3];
 		int start, end;
 		start = item.indexOf("<d:Title m:type=\"Edm.String\">", 0);
@@ -168,7 +165,7 @@ public class BingTest {
 		return res;
 	}
 
-	private static void testSplitItem(String item) {
+	private void testSplitItem(String item) {
 		String[] res = splitItem(item);
 		if (res == null) {
 			System.out.println("Invalid search result.");
@@ -178,24 +175,30 @@ public class BingTest {
 		System.out.println("URL:\n" + res[2]);
 	}
 
-	private static int parseAndDisplay(String content,
+	private int parseAndDisplay(String content,
 			ArrayList<ArrayList<String>> docs) {
 		int sum = 0;
 
 		ArrayList<Integer> index = splitResults(content);
+		
+		printPara((index.size() - 1) / 2);
+		
 		if (index.size() < RESULTNUM * 2 + 1) {
 			return -1;
 		}
+		
+		System.out.println("Bing Search Results:");
+		System.out.println("======================");
 		for (int i = 0; i < index.size() - 2; i += 2) {
 			String[] res = splitItem(content.substring(index.get(i),
 					index.get(i + 1) + "</m:properties>".length()));
 			if (res == null) {
 				return -2;
 			}
-			System.out.println("-----Result " + (i / 2 + 1) + "-----");
-			System.out.println("*Title:\n" + res[0]);
-			System.out.println("*Description:\n" + res[1]);
-			System.out.println("*URL:\n" + res[2] + "\n");
+			System.out.println("Result " + (i / 2 + 1));
+			System.out.println("[\nURL: " + res[2]);
+			System.out.println("Title: " + res[0]);
+			System.out.println("Summary: " + res[1] + "\n]\n");
 			int fb = getFeedback();
 			sum += fb;
 			docs.get(fb).add(res[0] + " " + res[1]);
@@ -203,17 +206,46 @@ public class BingTest {
 		}
 		return sum;
 	}
+	
+	private void printFb(double precision) {
+		System.out.println("======================");
+		System.out.println("FEEDBACK SUMMARY");
+		System.out.println("Query " + query);
+		System.out.println("Precision " + precision);
+		if (precision < bar)
+			System.out.println("Still below the desired precision of " + bar);
+		else
+			System.out.println("Desired precision reached, done");
+	}
+	
+	private void printPara(int num) {
+		System.out.println("Parameters:");
+		System.out.println("Client key  = " + accountKey);
+		System.out.println("Query       = " + query);
+		System.out.println("Precision   = " + bar);
+		System.out.println("URL: " + bingUrl);
+		System.out.println("Total no of results : " + num);
+	}
 
-	private static int getFeedback() {
+	private int getFeedback() {
 		java.util.Scanner input = new java.util.Scanner(System.in);
-		System.out.print("Is this document relevant to your query? (y/n) - ");
+		System.out.print("Relevant (Y/N)? ");
 		String s = input.next();
 		if (s.charAt(0) == 'y' || s.charAt(0) == 'Y') {
 			return 1;
 		} else if (s.charAt(0) == 'n' || s.charAt(0) == 'N') {
 			return 0;
 		}
-		System.out.println("Please check your input. (y/n)");
+		System.out.println("Please check your input. (Y/N)");
 		return getFeedback();
+	}
+
+	public static void main(String[] args) throws IOException {
+		String query = "XBOX";
+		double bar = 0.6;
+		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
+		BingTest bing = new BingTest(accountKey, query, bar);
+
+		bing.startSearching();
 	}
 }

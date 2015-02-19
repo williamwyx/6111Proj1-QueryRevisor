@@ -24,9 +24,6 @@ public class VectorSpaceModel {
         TreeMap<String, Double> sortedMap = new TreeMap<String, Double>(vc);
         sortedMap.putAll(newQueryVec);
 
-		
-		
-		
         return null;
 	}
 
