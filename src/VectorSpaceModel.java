@@ -148,10 +148,10 @@ public class VectorSpaceModel {
         revisedDocs.add(new ArrayList<String>());
         revisedDocs.add(new ArrayList<String>());
         for(String doc : docs.get(0)){
-            revisedDocs.get(0).add(doc.replaceAll("\\W", " "));
+            revisedDocs.get(0).add(doc.replaceAll("[^a-zA-Z0-9]", " "));
         }
         for(String doc : docs.get(1)) {
-            revisedDocs.get(1).add(doc.replaceAll("\\W", " "));
+            revisedDocs.get(1).add(doc.replaceAll("[^a-zA-Z0-9]", " "));
         }
         return revisedDocs;
     }
