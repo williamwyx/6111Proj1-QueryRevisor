@@ -90,8 +90,8 @@ public class BingTest {
 		if (docs.get(0).isEmpty() && docs.get(1).isEmpty()) {
 			return query;
 		}
-		VectorSpaceModel vs = new VectorSpaceModel();
-		return query;
+		VectorSpaceModel vs = new VectorSpaceModel(query, docs);
+		return vs.reviseQuery();
 	}
 
 	private static ArrayList<Integer> splitResults(String content) {

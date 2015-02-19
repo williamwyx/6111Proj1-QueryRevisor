@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class VectorSpaceModel {
 	private final double a = 1.0;
@@ -23,12 +20,14 @@ public class VectorSpaceModel {
 	public String reviseQuery() {
 		createDict();
 		HashMap<String, Double> newQueryVec = getNewQueryVec();
-		
+        ValueComparator vc = new ValueComparator(newQueryVec);
+        TreeMap<String, Double> sortedMap = new TreeMap<String, Double>(vc);
+        sortedMap.putAll(newQueryVec);
 
 		
 		
 		
-
+        return null;
 	}
 
 	private void createDict() {
@@ -123,5 +122,14 @@ public class VectorSpaceModel {
 
 class ValueComparator implements Comparator<String> {
 	HashMap<String, Double> base;
-	public ValueComparator
+	public ValueComparator(HashMap<String, Double> base){
+        this.base = base;
+    }
+
+    public int compare(String a, String b){
+        if(base.get(a) > base.get(b))
+            return -1;
+        else
+            return 1;
+    }
 }
