@@ -1,7 +1,7 @@
 import java.util.*;
+import java.io.*;
 
 public class VectorSpaceModel {
-	private final double a = 1.0;
 	private final double b = 0.8;
 	private final double c = -0.1;
 	public String query;
@@ -24,7 +24,30 @@ public class VectorSpaceModel {
         TreeMap<String, Double> sortedMap = new TreeMap<String, Double>(vc);
         sortedMap.putAll(newQueryVec);
 
-        return null;
+        List<String> newQueryList = new ArrayList<String>();
+        List<String> originQueryList = Arrays.asList(query.toLowerCase().split(" "));
+        int count = 0;
+        Iterator<String> newQueryIter = sortedMap.keySet().iterator();
+        HashSet<String> stopWords = StopWordsHelper.getInstance().getStopWords();
+        while(count < 2 && newQueryIter.hasNext()){
+            String word = newQueryIter.next().toLowerCase();
+            if(stopWords.contains(word))
+                continue;
+            if(!originQueryList.contains(word))
+                count++;
+            newQueryList.add(word);
+        }
+        for(String word : originQueryList){
+            if(!newQueryList.contains(word))
+                newQueryList.add(word);
+        }
+        StringBuilder newQuery = new StringBuilder();
+        for(String word : newQueryList) {
+            newQuery.append(word);
+            newQuery.append(" ");
+        }
+        return newQuery.toString().trim();
+
 	}
 
 	private void createDict() {
