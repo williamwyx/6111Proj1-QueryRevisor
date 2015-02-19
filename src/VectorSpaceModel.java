@@ -13,8 +13,8 @@ public class VectorSpaceModel {
 
 	VectorSpaceModel(String query, ArrayList<ArrayList<String>> docs) {
 		this.query = query;
-		this.docs = docs;
-		this.docNum = docs.get(0).size() + docs.get(1).size();
+        this.docs = eliminateSymbol(docs);
+        this.docNum = docs.get(0).size() + docs.get(1).size();
 	}
 
 	public String reviseQuery() {
@@ -142,7 +142,20 @@ public class VectorSpaceModel {
 		
 		return newQueryVec;
 	}
-	
+
+    private ArrayList<ArrayList<String>> eliminateSymbol(ArrayList<ArrayList<String>> docs) {
+        ArrayList<ArrayList<String>> revisedDocs = new ArrayList<ArrayList<String>>();
+        revisedDocs.add(new ArrayList<String>());
+        revisedDocs.add(new ArrayList<String>());
+        for(String doc : docs.get(0)){
+            revisedDocs.get(0).add(doc.replaceAll("\\W", " "));
+        }
+        for(String doc : docs.get(1)) {
+            revisedDocs.get(1).add(doc.replaceAll("\\W", " "));
+        }
+        return revisedDocs;
+    }
+
 }
 
 class ValueComparator implements Comparator<String> {
