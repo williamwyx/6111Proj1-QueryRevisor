@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 //Download and add this library to the build path.
@@ -49,6 +48,10 @@ public class BingTest {
 				System.out.println("Zero/Less than 10 search results.");
 				return;
 			}
+			if (ret == 0) {
+				System.out.println("No relevent search results.");
+				return;
+			}
 			precision = ret * 1.0 / RESULTNUM;
 			System.out.println("-----Precision: "
 					+ String.format("%1$.3f", precision) + "-----");
@@ -87,6 +90,7 @@ public class BingTest {
 		if (docs.get(0).isEmpty() && docs.get(1).isEmpty()) {
 			return query;
 		}
+		VectorSpaceModel vs = new VectorSpaceModel();
 		return query;
 	}
 
