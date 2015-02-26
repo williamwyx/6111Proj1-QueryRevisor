@@ -13,45 +13,49 @@ public class VectorSpaceModel {
 
 	VectorSpaceModel(String query, ArrayList<ArrayList<String>> docs) {
 		this.query = query;
-        this.docs = eliminateSymbol(docs);
-        this.docNum = docs.get(0).size() + docs.get(1).size();
+		this.docs = eliminateSymbol(docs);
+		this.docNum = docs.get(0).size() + docs.get(1).size();
 	}
 
 	public String reviseQuery() {
 		createDict();
 		HashMap<String, Double> newQueryVec = getNewQueryVec();
-        ValueComparator vc = new ValueComparator(newQueryVec);
-        TreeMap<String, Double> sortedMap = new TreeMap<String, Double>(vc);
-        sortedMap.putAll(newQueryVec);
+		ValueComparator vc = new ValueComparator(newQueryVec);
+		TreeMap<String, Double> sortedMap = new TreeMap<String, Double>(vc);
+		sortedMap.putAll(newQueryVec);
 
-        List<String> newQueryList = new ArrayList<String>();
-        List<String> originQueryList = Arrays.asList(query.toLowerCase().split(" "));
-        int count = 0;
-        Iterator<String> newQueryIter = sortedMap.keySet().iterator();
-        HashSet<String> stopWords = StopWordsHelper.getInstance().getStopWords();
-        while(count < 2 && newQueryIter.hasNext()){
-            String word = newQueryIter.next().toLowerCase();
-            //If the word is in the stop word list, ignore
-            if(stopWords.contains(word))
-                continue;
-            //If the word is not character or digit, ignore
-            if(!Character.isLetterOrDigit(word.charAt(0)) || !Character.isLetterOrDigit(word.charAt(word.length()-1)))
-                continue;
-            //If the word is not in the original query, increment count
-            if(!originQueryList.contains(word))
-                count++;
-            newQueryList.add(word);
-        }
-        for(String word : originQueryList){
-            if(!newQueryList.contains(word))
-                newQueryList.add(word);
-        }
-        StringBuilder newQuery = new StringBuilder();
-        for(String word : newQueryList) {
-            newQuery.append(word);
-            newQuery.append(" ");
-        }
-        return newQuery.toString().trim();
+		List<String> newQueryList = new ArrayList<String>();
+		List<String> originQueryList = Arrays.asList(query.toLowerCase().split(
+				" "));
+		int count = 0;
+		Iterator<String> newQueryIter = sortedMap.keySet().iterator();
+		HashSet<String> stopWords = StopWordsHelper.getInstance()
+				.getStopWords();
+		while (count < 2 && newQueryIter.hasNext()) {
+			String word = newQueryIter.next().toLowerCase();
+			// If the word is in the stop word list, ignore
+			if (stopWords.contains(word))
+				continue;
+			// If the word is not character or digit, ignore
+			if (!Character.isLetterOrDigit(word.charAt(0))
+					|| !Character
+							.isLetterOrDigit(word.charAt(word.length() - 1)))
+				continue;
+			// If the word is not in the original query, increment count
+			if (!originQueryList.contains(word))
+				count++;
+			newQueryList.add(word);
+		}
+		for (String word : originQueryList) {
+			if (!newQueryList.contains(word))
+				newQueryList.add(word);
+		}
+		StringBuilder newQuery = new StringBuilder();
+		for (String word : newQueryList) {
+			newQuery.append(word);
+			newQuery.append(" ");
+		}
+		return newQuery.toString().trim();
 
 	}
 
@@ -79,15 +83,33 @@ public class VectorSpaceModel {
 		}
 	}
 
-	private HashMap<String, Double> calculateVec(String doc) {
+	private HashMap<String, Double> calculateVec(String doc, boolean rel) {
 		HashMap<String, Integer> tf = new HashMap<String, Integer>();
 		String[] docArray = doc.toLowerCase().split(" ");
-		for (String word : docArray) {
+		String[] queryArray = query.toLowerCase().split(" ");
+		HashSet<String> querySet = new HashSet<String>();
+		for (String queryWord : queryArray) {
+			querySet.add(queryWord);
+		}
+		for (int i = 0; i < docArray.length; i++) {
+			int weight = 1;
+			String word = docArray[i];
+
+			// For relevant docs, increment the tf of words near query.
+
+			if (i > 0 && querySet.contains(docArray[i - 1])) {
+				weight = 2;
+			}
+			if (i < docArray.length - 1 && querySet.contains(docArray[i + 1])) {
+				weight = 2;
+			}
+
+			// Put tf
 			if (!word.equals("")) {
 				if (!tf.containsKey(word))
-					tf.put(word, 1);
+					tf.put(word, weight);
 				else
-					tf.put(word, tf.get(word) + 1);
+					tf.put(word, tf.get(word) + weight);
 			}
 		}
 
@@ -96,17 +118,17 @@ public class VectorSpaceModel {
 			double tf_idf = entry.getValue()
 					* (1 + Math.log((double) docNum / dict.get(entry.getKey())));
 			vector.put(entry.getKey(), tf_idf);
-//			vector.put(entry.getKey(), entry.getValue()*1.0);
+			// vector.put(entry.getKey(), entry.getValue()*1.0);
 		}
 		return vector;
 	}
-	
-	private HashMap<String, Double> getNewQueryVec(){
+
+	private HashMap<String, Double> getNewQueryVec() {
 		for (String doc : docs.get(0)) {
-			unrVecs.add(calculateVec(doc));
+			unrVecs.add(calculateVec(doc, false));
 		}
 		for (String doc : docs.get(1)) {
-			relVecs.add(calculateVec(doc));
+			relVecs.add(calculateVec(doc, true));
 		}
 
 		HashMap<String, Double> newQueryVec = new HashMap<String, Double>();
@@ -140,35 +162,37 @@ public class VectorSpaceModel {
 					newQueryVec.put(word, newQueryVec.get(word) + 1);
 			}
 		}
-		
+
 		return newQueryVec;
 	}
 
-    private ArrayList<ArrayList<String>> eliminateSymbol(ArrayList<ArrayList<String>> docs) {
-        ArrayList<ArrayList<String>> revisedDocs = new ArrayList<ArrayList<String>>();
-        revisedDocs.add(new ArrayList<String>());
-        revisedDocs.add(new ArrayList<String>());
-        for(String doc : docs.get(0)){
-            revisedDocs.get(0).add(doc.replaceAll("[^a-zA-Z0-9]", " "));
-        }
-        for(String doc : docs.get(1)) {
-            revisedDocs.get(1).add(doc.replaceAll("[^a-zA-Z0-9]", " "));
-        }
-        return revisedDocs;
-    }
+	private ArrayList<ArrayList<String>> eliminateSymbol(
+			ArrayList<ArrayList<String>> docs) {
+		ArrayList<ArrayList<String>> revisedDocs = new ArrayList<ArrayList<String>>();
+		revisedDocs.add(new ArrayList<String>());
+		revisedDocs.add(new ArrayList<String>());
+		for (String doc : docs.get(0)) {
+			revisedDocs.get(0).add(doc.replaceAll("[^a-zA-Z0-9]", " "));
+		}
+		for (String doc : docs.get(1)) {
+			revisedDocs.get(1).add(doc.replaceAll("[^a-zA-Z0-9]", " "));
+		}
+		return revisedDocs;
+	}
 
 }
 
 class ValueComparator implements Comparator<String> {
 	HashMap<String, Double> base;
-	public ValueComparator(HashMap<String, Double> base){
-        this.base = base;
-    }
 
-    public int compare(String a, String b){
-        if(base.get(a) > base.get(b))
-            return -1;
-        else
-            return 1;
-    }
+	public ValueComparator(HashMap<String, Double> base) {
+		this.base = base;
+	}
+
+	public int compare(String a, String b) {
+		if (base.get(a) > base.get(b))
+			return -1;
+		else
+			return 1;
+	}
 }

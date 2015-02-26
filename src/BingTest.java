@@ -241,10 +241,12 @@ public class BingTest {
 	}
 
 	public static void main(String[] args) throws IOException {
-//		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
-		String accountKey = args[0];
-		double bar = Double.parseDouble(args[1]);
-		String query = args[2];
+		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
+		double bar = 0.9;
+		String query = "columbia";
+//		String accountKey = args[0];
+//		double bar = Double.parseDouble(args[1]);
+//		String query = args[2];
 		
 		BingTest bing = new BingTest(accountKey, query, bar);
 

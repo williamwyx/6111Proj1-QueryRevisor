@@ -94,10 +94,10 @@ public class VectorSpaceModel {
 
 		HashMap<String, Double> vector = new HashMap<String, Double>();
 		for (Map.Entry<String, Integer> entry : tf.entrySet()) {
-			double tf_idf = entry.getValue()
-					* (1 + Math.log((double) docNum / dict.get(entry.getKey())));
-			vector.put(entry.getKey(), tf_idf);
-//			vector.put(entry.getKey(), entry.getValue()*1.0);
+			//double tf_idf = entry.getValue()
+			//		* (1 + Math.log((double) docNum / dict.get(entry.getKey())));
+			//vector.put(entry.getKey(), tf_idf);
+			vector.put(entry.getKey(), entry.getValue()*1.0);
 		}
 		return vector;
 	}
