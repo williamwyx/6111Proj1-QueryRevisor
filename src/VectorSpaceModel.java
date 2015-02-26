@@ -71,12 +71,14 @@ public class VectorSpaceModel {
 		for (ArrayList<String> docClass : docs) {
 			for (String doc : docClass) {
 				String[] docArray = doc.toLowerCase().split(" ");
+				HashSet<String> existWord = new HashSet<String>();
 				for (String word : docArray) {
-					if (!word.equals("")) {
+					if (!word.equals("") && !existWord.contains(word)) {
 						if (!dict.containsKey(word))
 							dict.put(word, 1);
 						else
 							dict.put(word, dict.get(word) + 1);
+						existWord.add(word);
 					}
 				}
 			}
