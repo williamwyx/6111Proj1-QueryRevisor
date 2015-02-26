@@ -1,0 +1,1 @@
+java -cp ./bin/commons-codec-1.10/commons-codec-1.10.jar:./bin bing.BingTest $1 $2 $3
