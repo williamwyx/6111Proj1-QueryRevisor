@@ -1,0 +1,569 @@
+======================
+Round 1
+QUERY: musk
+
+Result 1
+Relevant: NO
+[
+URL: http://en.wikipedia.org/wiki/Musk
+Title: Musk - Wikipedia, the free encyclopedia
+Summary: Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+
+
+Result 2
+Relevant: YES
+[
+URL: http://en.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Wikipedia, the free encyclopedia
+Summary: Elon Reeve Musk (born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is the CEO and CTO of ...
+]
+
+
+Result 3
+Relevant: NO
+[
+URL: http://www.fragrantica.com/notes/Musk-4.html
+Title: Musk perfume ingredient, Musk fragrance and essential oils ...
+Summary: Musk is a whole class of fragrant substances used as base notes in perfumery. This wonderful animalistic note creates a groundwork on which the rest of the aromatic ...
+]
+
+
+Result 4
+Relevant: NO
+[
+URL: http://dictionary.reference.com/browse/musk
+Title: Musk | Define Musk at Dictionary.com
+Summary: The freezer case was full of curious meats: a snowy hunk of a fin whale's throat, a slab of musk ox. The resulting molecule is similar in shape and smell to the musk ...
+]
+
+
+Result 5
+Relevant: NO
+[
+URL: http://www.thefreedictionary.com/musk
+Title: musk - definition of musk by The Free Dictionary
+Summary: musk (mŭsk) n. 1. a. A greasy secretion with a powerful odor, produced in a glandular sac in the abdomen of a male musk deer and used in traditional medicines and ...
+]
+
+
+Result 6
+Relevant: NO
+[
+URL: http://www.merriam-webster.com/dictionary/musk
+Title: Musk - Definition and More from the Free Merriam-Webster ...
+Summary: Full Definition of MUSK 1 a : a substance with a penetrating persistent odor obtained from a sac beneath the abdominal skin of the male musk deer and used as a ...
+]
+
+
+Result 7
+Relevant: NO
+[
+URL: http://www.ebay.com/sch/i.html?_nkw=musk+oil
+Title: musk oil | eBay
+Summary: Find great deals on eBay for musk oil coty wild musk oil. Shop with confidence.
+]
+
+
+Result 8
+Relevant: NO
+[
+URL: http://www.amazon.com/s?ie=UTF8&amp;page=1&amp;rh=n%3A3760911%2Ck%3Aperfume%20musk
+Title: Amazon.com: perfume musk: Beauty
+Summary: ASDM Beverly Hills Egyptian Musk, A Rich, Egyptian Musk With Precious Wood Blends and Floral Top Note., 0.5 Ounce. $25.00 $24.95 ;
+]
+
+
+Result 9
+Relevant: NO
+[
+URL: http://www.cooperlabs.com/Musk/
+Title: The Original Musk Oil - 1-800-645-5048 - Cooperlabs Skin ...
+Summary: The Original Musk Oil. Its ability to excite has been spoken of for centuries. You may not even be aware of its fragrance, but your own body chemistry is releasing ...
+]
+
+
+Result 10
+Relevant: NO
+[
+URL: http://www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK
+Title: MUSK Gene - GeneCards | MUSK Protein | MUSK Antibody
+Summary: Complete information for MUSK gene (protein-coding), muscle, skeletal, receptor tyrosine kinase, including: function, proteins, disorders, pathways, orthologs, and ...
+]
+
+PRECISION: 0.1
+
+======================
+Round 2
+QUERY: elon musk reeve
+
+Result 1
+Relevant: YES
+[
+URL: http://en.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Wikipedia, the free encyclopedia
+Summary: Elon Reeve Musk (born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is the CEO and CTO of ...
+]
+
+
+Result 2
+Relevant: YES
+[
+URL: http://elonreevemusk.com/
+Title: Elon Musk - Canadian American business magnate, inventor ...
+Summary: Elon Musk is the CEO and product architect of Tesla Motors and the CEO/CTO of Space Exploration Technologies (SpaceX)
+]
+
+
+Result 3
+Relevant: YES
+[
+URL: http://elonreevemusk.com/author/administrator/
+Title: Elon Musk
+Summary: Elon Reeve Musk is a South Africa-born, Canadian American business magnate, inventor, and investor. He is the CEO and CTO of SpaceX, CEO and chief product architect ...
+]
+
+
+Result 4
+Relevant: YES
+[
+URL: https://twitter.com/TheKayusBobo
+Title: Elon Reeve Musk (@TheKayusBobo) | Twitter
+Summary: The latest Tweets from Elon Reeve Musk (@TheKayusBobo). NGBATI HI GROW HOP HIGH WAN NA BE RAZZ SO BAD. A.W.O.L
+]
+
+
+Result 5
+Relevant: YES
+[
+URL: http://blogs.wsj.com/corporate-intelligence/2015/01/13/teslas-musk-attracts-a-crowd-in-detroit/
+Title: Tesla’s Musk Attracts a Crowd in Detroit - Corporate ...
+Summary: Jan. 13, 2015 – Detroit, MI, UNITED STATES – Elon Reeve Musk speaks at the Automotive News World Congress held at the Detroit Marriott in Detroit ...
+]
+
+
+Result 6
+Relevant: YES
+[
+URL: http://www.marketwatch.com/investing/stock/tsla/insiders?pid=63403856
+Title: TSLA Elon Reeve Musk Insider Trades for Tesla Motors Inc.
+Summary: Elon Reeve Musk. Mr. Elon R. Musk is Chairman at SolarCity Corp., Chairman &amp; Chief Executive Officer at Tesla Motors, Inc., ...
+]
+
+
+Result 7
+Relevant: YES
+[
+URL: http://www.patentbuddy.com/Inventor/Musk-Elon-Reeve/18027313
+Title: Elon Reeve Musk, Inventor, Los Angeles, CA, US
+Summary: Elon Reeve Musk's Inventor profile, Los Angeles, CA, US, TESLA MOTORS, INC.;, 4 patents/applications from Feb 08, 2012 to Jul 13, 2012, 6 forward patent citations ...
+]
+
+
+Result 8
+Relevant: YES
+[
+URL: http://www.letswibe.com/wibe/Elon-Musk/
+Title: Elon Musk-Wibe, Elon Reeve Musk (/ˈiːlɒn ˈmʌsk ...
+Summary: Elon Reeve Musk (/ˈiːlɒn ˈmʌsk/; born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor He is the CEO and ...
+]
+
+
+Result 9
+Relevant: YES
+[
+URL: http://sylc.info/elon-reeve-musk-legend-making/
+Title: Elon Reeve Musk – A legend in the making | celebrities ...
+Summary: Elon Reeve Musk was born in South Africa and is a Canadian-American business magnate. He is an inventor and investor. Being an early investor in SpaceX, PayPal, Tesla ...
+]
+
+
+Result 10
+Relevant: YES
+[
+URL: http://www.thenewsdaily.org/tag/elon-reeve-musk/
+Title: Elon Reeve Musk Archives - DAILY NEWS GLOBAL CENTER
+Summary: frontpage. more breaking news; more world news: more art/design news: more technology news: fun pages. mock news fun page. investigation team. how stanford and yale ...
+]
+
+PRECISION: 1.0
+
+======================
+Round 1
+QUERY: gates
+
+Result 1
+Relevant: NO
+[
+URL: http://www.gates.com/
+Title: Gates Corporation
+Summary: Gates Corporation is Powering Progress™ in the Oil &amp; Gas, Energy, Mining, Marine, Agriculture, Transportation and Automotive Industries.
+]
+
+
+Result 2
+Relevant: NO
+[
+URL: http://www.amazon.com/s?ie=UTF8&amp;page=1&amp;rh=i%3Aaps%2Ck%3Agates
+Title: Amazon.com: gates
+Summary: Product Description... Easy Open Extra Wide Safety Gate boasts 100 percent steel ...
+]
+
+
+Result 3
+Relevant: NO
+[
+URL: http://www.gatecrafters.com/design_your_gates.aspx
+Title: Driveway Gates | Automatic Gates | Electric Gates
+Summary: Driveway Gates - Automatic Gates The high-quality driveway gates from GateCrafters.com come in a wide variety of options to ...
+]
+
+
+Result 4
+Relevant: NO
+[
+URL: http://www.gates.com/about-gates
+Title: Powering Progress in Automotive &amp; Industrial | Gates ...
+Summary: Gates Corporation is the world’s leading manufacturer of power transmission belts and a premier global manufacturer of fluid power products.
+]
+
+
+Result 5
+Relevant: NO
+[
+URL: http://www.gatesbbq.com/
+Title: Gates Bar B.Q.
+Summary: With the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+]
+
+
+Result 6
+Relevant: NO
+[
+URL: http://gateshousings.com/
+Title: Gates Underwater Products | 'Bulletproof' Housings
+Summary: Zsolt Sásdi demonstrates how to produce incredible underwater motion images with the Gates AX100 rig. His Demo Reel can be viewed in 4K. www.saser.hu...
+]
+
+
+Result 7
+Relevant: NO
+[
+URL: http://navigates.gates.com/
+Title: NaviGates - Gates Corporation
+Summary: Gates high quality belt &amp; hose solutions support your energy, exploration, extraction, infrastructure, agriculture &amp; transportation needs.
+]
+
+
+Result 8
+Relevant: NO
+[
+URL: http://www.toysrus.com/family/index.jsp?categoryId=2256222
+Title: Baby Gates - Babies"R"Us
+Summary: Safe &amp; durable baby gates will keep your baby safe. Choose from a large assortment of baby gates including extra wide gates to suit your needs. Shop today.
+]
+
+
+Result 9
+Relevant: NO
+[
+URL: http://www.gatesnotes.com/
+Title: Home | Bill Gates
+Summary: Answering questions about food security, eradicating disease, my Secret Santa, and more.
+]
+
+
+Result 10
+Relevant: YES
+[
+URL: http://en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates originally ...
+]
+
+PRECISION: 0.1
+
+======================
+Round 2
+QUERY: bill gates iii
+
+Result 1
+Relevant YES
+[
+URL: http://en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates originally ...
+]
+
+
+Result 2
+Relevant YES
+[
+URL: http://www.biography.com/people/bill-gates-9307520
+Title: Bill Gates - Biography - - Biography.com
+Summary: Bill Gates was born William Henry Gates III on October 28, 1955, in Seattle, Washington. Gates began to show an interest in computer programming at the age of 13 at ...
+]
+
+
+Result 3
+Relevant YES
+[
+URL: http://www.bloomberg.com/research/stocks/people/person.asp?personId=181600&amp;ticker=MSFT
+Title: William Henry Gates III: Executive Profile &amp; Biography ...
+Summary: Background* Mr. William Henry Gates, III, also known as Bill, co-founded Microsoft Corporation in 1975 and has been its Technology Advisor since February 4, 2014.
+]
+
+
+Result 4
+Relevant YES
+[
+URL: http://www.forbes.com/lists/2010/10/billionaires-2010_William-Gates-III_BH69.html
+Title: #2 William Gates III - Forbes.com
+Summary: The World's Billionaires #2 William Gates III 03.10.10, 06:00 PM EST Software visionary is now the world's second-richest man.
+]
+
+
+Result 5
+Relevant YES
+[
+URL: http://williamhenrygatesiii.com/bio.htm
+Title: William Henry Gates III Bio - WilliamHenryGatesIII.com
+Summary: Bill Gates was born William Henry Gates III October 28, 1955 to William Henry Gates, Jr. and Mary Gates at Seattle ...
+]
+
+
+Result 6
+Relevant YES
+[
+URL: http://www.learningtogive.org/papers/paper100.html
+Title: Gates, William H., III (Bill Gates) (Informational Paper)
+Summary: William Henry Gates III and his foundation's focus on global health and population control programs, increased library technology, minority scholarships, and ...
+]
+
+
+Result 7
+Relevant YES
+[
+URL: https://www.facebook.com/BillGates2015
+Title: Bill Gates 2015 | Facebook
+Summary: Bill Gates 2015, Tallahassee, Florida. 1,104 likes · 1,099 talking about this. William Henry "Bill" Gates III (born October 28, 1955) is an American...
+]
+
+
+Result 8
+Relevant YES
+[
+URL: http://www.forbes.com/lists/2008/10/billionaires08_William-Gates-III_BH69.html
+Title: #3 William Gates III - Forbes.com - Information for the ...
+Summary: William Gates III ranks 3 on The World's Billionaires 2008
+]
+
+
+Result 9
+Relevant YES
+[
+URL: http://www.bizjournals.com/search?q=Bill+Gates+III&amp;Potler_LLP=+title%3D+title%3D+title%3D+title%3D+title%3D+title%3D+title%3D&amp;title=Search+for+Forbes+Magazine&amp;title=Search+for+Bill+Gates+III
+Title: Search Results for "Bill Gates III" - The Business Journals
+Summary: Behind the Scenes with Patti Payne, let’s get the names straight: Gates Sr. is really Gates Jr., while the Microsoft magnate Gates is Bill Gates III, or Trey as he ...
+]
+
+
+Result 10
+Relevant YES
+[
+URL: http://www.youtube.com/watch?v=cBHJ-8Bch4E
+Title: William H. Gates III COL '77, LLD '07 Q&amp;A | The Harvard ...
+Summary: Question and answer with Bill Gates at the launch of the Harvard Campaign. Sanders Theater, September 21, 2013 Read more about The Harvard Campaign at http
+]
+
+PRECISION: 1.0
+
+======================
+Round 1
+QUERY: columbia
+
+Result 1
+Relevant NO
+[
+URL: http://www.columbia.com/
+Title: Shop Direct for Jackets, Pants, Shirts &amp; Shoes | Columbia ...
+Summary: Shop direct from Columbia Sportswear. Buy Columbia jackets, pants, shirts, fleece, shoes, boots &amp; sweaters. Visit our blog, watch videos &amp; meet our athletes.
+]
+
+
+Result 2
+Relevant YES
+[
+URL: http://www.columbia.edu/
+Title: Columbia University in the City of New York
+Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+
+
+Result 3
+Relevant NO
+[
+URL: http://en.wikipedia.org/wiki/Columbia
+Title: Columbia - Wikipedia, the free encyclopedia
+Summary: Columbia may refer to: Contents 1 Places 1.1 In North America 1.2 Elsewhere 1.3 In fiction 2 Companies 2.1 Music and entertainment 2.2 Other 3 Music 4 People 5 ...
+]
+
+
+Result 4
+Relevant NO
+[
+URL: http://en.wikipedia.org/wiki/Colombia
+Title: Colombia - Wikipedia, the free encyclopedia
+Summary: Colombia, officially the Republic of Colombia, is a country situated in the northwest of South America, bordered to the northwest by Panama ; to the east by Venezuela ...
+]
+
+
+Result 5
+Relevant NO
+[
+URL: http://columbiasc.net/
+Title: :: Welcome to the City of Columbia ::
+Summary: The Columbia City Hall, also known as Old United States Court House and Post Office, was built in 1870.It was listed on the National Register of Historic Places in 1973.
+]
+
+
+Result 6
+Relevant NO
+[
+URL: http://www.gocolumbiamo.com/
+Title: City of Columbia, Missouri's Official Government Web Site
+Summary: The City of Columbia Missouri's official web site. Perform business transactions, view services, department information, upcoming meetings and events.
+]
+
+
+Result 7
+Relevant YES
+[
+URL: http://www.columbia.edu/content/about-columbia.html
+Title: About Columbia | Columbia University in the City of New York
+Summary: For more than 250 years, Columbia has been a leader in higher education in the nation and around the world. At the core of our wide range of academic inquiry is the ...
+]
+
+
+Result 8
+Relevant YES
+[
+URL: http://www.college.columbia.edu/
+Title: Columbia College | Columbia College
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013–2014, which celebrates our students’ and faculty members’ achievements, thanks our ...
+]
+
+
+Result 9
+Relevant NO
+[
+URL: http://www.parks.ca.gov/?page_id=552
+Title: Columbia SHP - California State Parks
+Summary: Location - Directions. Columbia State Historic Park is three miles north of Sonora, off Highway 49. The parks address is 11255 Jackson Street Columbia CA, 95310.
+]
+
+
+Result 10
+Relevant NO
+[
+URL: http://www.colum.edu/
+Title: Columbia College Chicago
+Summary: When you attend Columbia College Chicago, your home is one of the most active, vibrant, forward-thinking cities in the world.
+]
+
+PRECISION: 0.3 
+
+======================
+Round 2
+QUERY: columbia university new
+
+Result 1
+Relevant YES
+[
+URL: http://www.columbia.edu/
+Title: Columbia University in the City of New York
+Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+
+
+Result 2
+Relevant YES
+[
+URL: http://www.columbia.edu/content/employment-columbia.html
+Title: Employment at Columbia | Columbia University in the City ...
+Summary: Opportunities at Columbia. Columbia University is committed to attracting, encouraging and retaining a highly qualified workforce to support our mission of excellence ...
+]
+
+
+Result 3
+Relevant YES
+[
+URL: http://www.cumc.columbia.edu/
+Title: Columbia University Medical Center | Discover. Educate ...
+Summary: Medicine and Science in the Spotlight at the 2015 Oscars; Disparities in Breast Cancer Care Linked to Net Worth; New ALS Gene and Signaling Pathways Identified
+]
+
+
+Result 4
+Relevant YES
+[
+URL: http://www.college.columbia.edu/
+Title: Columbia College | Columbia College
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013–2014, ... Columbia University in the City of New York 208 Hamilton Hall, Mail Code 2805
+]
+
+
+Result 5
+Relevant YES
+[
+URL: http://www.columbia.edu/content/admissions.html
+Title: Admissions | Columbia University in the City of New York
+Summary: For information on admission to a Columbia school, select the appropriate school from the drop-down menu on the right.
+]
+
+
+Result 6
+Relevant YES
+[
+URL: http://en.wikipedia.org/wiki/Columbia_university
+Title: Columbia University - Wikipedia, the free encyclopedia
+Summary: Columbia University in the City of New York, or simply Columbia University, is an American private Ivy League research university located in the ...
+]
+
+
+Result 7
+Relevant YES
+[
+URL: http://www.columbia.edu/content/academics.html
+Title: Academics | Columbia University in the City of New York
+Summary: For more information on one of Columbia's undergraduate, graduate or professional schools, select from the drop-down menu on the right.
+]
+
+
+Result 8
+Relevant YES
+[
+URL: http://www.law.columbia.edu/
+Title: Columbia University School of Law
+Summary: Features news about events at the Law School and recent publications of the Law School's faculty. For prospective students, the site offers curriculum information ...
+]
+
+
+Result 9
+Relevant YES
+[
+URL: http://www.columbia.edu/content/about-columbia.html
+Title: About Columbia | Columbia University in the City of New York
+Summary: Looking for a statistical snapshot of the University? Find all the basic facts and figures about Columbia here.
+]
+
+
+Result 10
+Relevant YES
+[
+URL: http://www.gocolumbialions.com/
+Title: Columbia University Athletics
+Summary: The Official Online Home of the Columbia Lions, Columbia Athletics, Columbia University, Columbia Lions Official Merchandise, Columbia Lions broadcasting
+]
+
+PRECISION: 1.0
