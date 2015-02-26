@@ -1,0 +1,1 @@
+java -cp Cmd/commons-codec-1.10/commons-codec-1.10.jar:. Cmd.BingTest $1 $2 $3
