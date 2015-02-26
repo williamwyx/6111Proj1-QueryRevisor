@@ -3,7 +3,7 @@ import java.io.*;
 
 public class VectorSpaceModel {
 	private final double b = 0.8;
-	private final double c = -0.1;
+	private final double c = -0.3;
 	public String query;
 	public ArrayList<ArrayList<String>> docs;
 	public int docNum;
@@ -110,17 +110,19 @@ public class VectorSpaceModel {
 			if (!word.equals("")) {
 				if (!tf.containsKey(word))
 					tf.put(word, weight);
-				else
+				// Limit the maximum tf of a word in one doc up to 4
+				else if (tf.get(word) < 3) {
 					tf.put(word, tf.get(word) + weight);
+				}
 			}
 		}
 
 		HashMap<String, Double> vector = new HashMap<String, Double>();
 		for (Map.Entry<String, Integer> entry : tf.entrySet()) {
-			double tf_idf = entry.getValue()
-					* (1 + Math.log((double) docNum / dict.get(entry.getKey())));
-			vector.put(entry.getKey(), tf_idf);
-			// vector.put(entry.getKey(), entry.getValue()*1.0);
+//			double tf_idf = entry.getValue()
+//					* (1 + Math.log((double) docNum / dict.get(entry.getKey())));
+//			vector.put(entry.getKey(), tf_idf);
+			vector.put(entry.getKey(), entry.getValue()*1.0);
 		}
 		return vector;
 	}
