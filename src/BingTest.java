@@ -53,7 +53,7 @@ public class BingTest {
 				System.out.println("No relevent search results.");
 				return;
 			}
-			precision = ret * 1.0 / RESULTNUM; 
+			precision = ret * 1.0 / RESULTNUM;
 		}
 		printFb(precision);
 	}
@@ -183,13 +183,13 @@ public class BingTest {
 		int sum = 0;
 
 		ArrayList<Integer> index = splitResults(content);
-		
+
 		printPara((index.size() - 1) / 2);
-		
+
 		if (index.size() < RESULTNUM * 2 + 1) {
 			return -1;
 		}
-		
+
 		System.out.println("Bing Search Results:");
 		System.out.println("======================");
 		for (int i = 0; i < index.size() - 2; i += 2) {
@@ -209,7 +209,7 @@ public class BingTest {
 		}
 		return sum;
 	}
-	
+
 	private void printFb(double precision) {
 		System.out.println("======================");
 		System.out.println("FEEDBACK SUMMARY");
@@ -220,7 +220,7 @@ public class BingTest {
 		else
 			System.out.println("Desired precision reached, done");
 	}
-	
+
 	private void printPara(int num) {
 		System.out.println("Parameters:");
 		System.out.println("Client key  = " + accountKey);
@@ -244,12 +244,20 @@ public class BingTest {
 	}
 
 	public static void main(String[] args) throws IOException {
-		String accountKey = args[0];
-		double bar = Double.parseDouble(args[1]);
-		String query = args[2];
-		
-		BingTest bing = new BingTest(accountKey, query, bar);
+		if (args.length < 3) {
+			System.out.println("Usage: ./run.sh accountKey bar query");
+			return;
+		}
 
-		bing.startSearching();
+		try {
+			String accountKey = args[0];
+			double bar = Double.parseDouble(args[1]);
+			String query = args[2];
+
+			BingTest bing = new BingTest(accountKey, query, bar);
+			bing.startSearching();
+		} catch (Exception e) {
+			System.out.println("Usage: ./run.sh accountKey bar query");
+		}
 	}
 }
