@@ -52,7 +52,7 @@ public class BingTest {
 				return;
 			}
 			if (ret == 0) {
-				System.out.println("No relevent search results.");
+				System.out.println("No relevant search results.");
 				return;
 			}
 			precision = ret * 1.0 / RESULTNUM; 
