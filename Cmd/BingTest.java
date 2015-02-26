@@ -243,11 +243,19 @@ public class BingTest {
 
 	public static void main(String[] args) throws IOException {
 //		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
-		String accountKey = args[0];
-		double bar = Double.parseDouble(args[1]);
-		String query = args[2];
+		if (args.length < 3) {
+			System.out.println("Usage: run.sh accountKey bar query");
+		}
+
+		try {
+			String accountKey = args[0];
+			double bar = Double.parseDouble(args[1]);
+			String query = args[2];
+			BingTest bing = new BingTest(accountKey, query, bar);
+		} catch (Exception e) {
+			System.out.println("Usage: run.sh accountKey bar query");
+		}
 		
-		BingTest bing = new BingTest(accountKey, query, bar);
 
 		bing.startSearching();
 	}
