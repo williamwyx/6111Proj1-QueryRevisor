@@ -1,9 +1,10 @@
+import java.lang.reflect.Array;
 import java.util.*;
 import java.io.*;
 
 public class VectorSpaceModel {
 	private final double b = 0.8;
-	private final double c = -0.1;
+	private final double c = -0.3;
 	public String query;
 	public ArrayList<ArrayList<String>> docs;
 	public int docNum;
@@ -14,6 +15,7 @@ public class VectorSpaceModel {
 	VectorSpaceModel(String query, ArrayList<ArrayList<String>> docs) {
 		this.query = query;
 		this.docs = eliminateSymbol(docs);
+        this.docs = eliminateStopWords(docs);
 		this.docNum = docs.get(0).size() + docs.get(1).size();
 	}
 
@@ -181,6 +183,21 @@ public class VectorSpaceModel {
 		}
 		return revisedDocs;
 	}
+
+    private ArrayList<ArrayList<String>> eliminateStopWords(ArrayList<ArrayList<String>> docs){
+        HashSet<String> stopWords = StopWordsHelper.getInstance().getStopWords();
+        ArrayList<ArrayList<String>> retDocs = new ArrayList<ArrayList<String>>();
+        for(int i = 0; i < docs.size(); i++){
+            ArrayList<String> doc = docs.get(i);
+            ArrayList<String> newDoc = new ArrayList<String>();
+            for(String word : doc){
+                if(!stopWords.contains(word))
+                    newDoc.add(word);
+            }
+            retDocs.add(newDoc);
+        }
+        return retDocs;
+    }
 
 }
 
