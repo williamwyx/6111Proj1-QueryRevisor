@@ -1,3 +1,6 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -13,8 +16,9 @@ public class BingTest {
 	public String query;
 	public double bar;
 	public String bingUrl;
+	int times;
 
-	BingTest(String accountKey, String query, double bar) {
+	BingTest(String accountKey, String query, double bar) throws IOException {
 		this.accountKey = accountKey;
 		this.query = query;
 		this.bar = bar;
@@ -22,7 +26,6 @@ public class BingTest {
 
 	public void startSearching() throws IOException {
 		int ret = 0;
-		int times = 0;
 		double precision = 0;
 		ArrayList<ArrayList<String>> docs = new ArrayList<ArrayList<String>>();
 		docs.add(new ArrayList<String>());
@@ -176,7 +179,7 @@ public class BingTest {
 	}
 
 	private int parseAndDisplay(String content,
-			ArrayList<ArrayList<String>> docs) {
+			ArrayList<ArrayList<String>> docs) throws IOException {
 		int sum = 0;
 
 		ArrayList<Integer> index = splitResults(content);
@@ -241,12 +244,9 @@ public class BingTest {
 	}
 
 	public static void main(String[] args) throws IOException {
-		String accountKey = "5ZIHb6H/L4XPW0sE8LqFHfGYlyU1su2hafW5KLHjlT4";
-		double bar = 0.9;
-		String query = "musk";
-//		String accountKey = args[0];
-//		double bar = Double.parseDouble(args[1]);
-//		String query = args[2];
+		String accountKey = args[0];
+		double bar = Double.parseDouble(args[1]);
+		String query = args[2];
 		
 		BingTest bing = new BingTest(accountKey, query, bar);
 
