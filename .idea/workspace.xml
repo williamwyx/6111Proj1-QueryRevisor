@@ -2,244 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c2fe9f-a9c4-41e0-a93e-d4bc45bd94c4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/bing/BingTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/bing/StopWordsHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/bing/ValueComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/bing/VectorSpaceModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/NOTICE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/RELEASE-NOTES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/BinaryDecoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/BinaryEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/CharEncoding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/Charsets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/Decoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/DecoderException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/Encoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/EncoderException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/StringDecoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/StringEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/StringEncoderComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Base32.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Base32InputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Base32OutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Base64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Base64InputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Base64OutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/BaseNCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/BaseNCodecInputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/BaseNCodecOutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/BinaryCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/CharSequenceUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/Hex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/StringUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Base32.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Base32InputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Base32OutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Base64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Base64InputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Base64OutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/BaseNCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/BaseNCodecInputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/BaseNCodecOutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/BinaryCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/CharSequenceUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/Hex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/class-use/StringUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/binary/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/BinaryDecoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/BinaryEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/CharEncoding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/Charsets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/Decoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/DecoderException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/Encoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/EncoderException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/StringDecoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/StringEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/class-use/StringEncoderComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/DigestUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/HmacAlgorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/HmacUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/Md5Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/MessageDigestAlgorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/Sha2Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/UnixCrypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/DigestUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/HmacAlgorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/HmacUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/Md5Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/MessageDigestAlgorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/Sha2Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/class-use/UnixCrypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/digest/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/AbstractCaverphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/Caverphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/Caverphone1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/Caverphone2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/ColognePhonetic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/DaitchMokotoffSoundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/DoubleMetaphone.DoubleMetaphoneResult.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/DoubleMetaphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/MatchRatingApproachEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/Metaphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/Nysiis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/RefinedSoundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/Soundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/BeiderMorseEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Lang.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Languages.LanguageSet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Languages.SomeLanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Languages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/NameType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/PhoneticEngine.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Rule.Phoneme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Rule.PhonemeExpr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Rule.PhonemeList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Rule.RPattern.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/Rule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/RuleType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/BeiderMorseEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Lang.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Languages.LanguageSet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Languages.SomeLanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Languages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/NameType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/PhoneticEngine.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Rule.Phoneme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Rule.PhonemeExpr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Rule.PhonemeList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Rule.RPattern.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/Rule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/class-use/RuleType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/bm/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/AbstractCaverphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/Caverphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/Caverphone1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/Caverphone2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/ColognePhonetic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/DaitchMokotoffSoundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/DoubleMetaphone.DoubleMetaphoneResult.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/DoubleMetaphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/MatchRatingApproachEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/Metaphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/Nysiis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/RefinedSoundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/class-use/Soundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/language/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/BCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/QCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/QuotedPrintableCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/URLCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/class-use/BCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/class-use/QCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/class-use/QuotedPrintableCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/class-use/URLCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/net/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/org/apache/commons/codec/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/overview-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/overview-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/resources/background.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/resources/tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/resources/titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/resources/titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/BinaryDecoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/BinaryEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/CharEncoding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/Charsets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/Decoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/DecoderException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/Encoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/EncoderException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/StringDecoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/StringEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/StringEncoderComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Base32.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Base32InputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Base32OutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Base64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Base64InputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Base64OutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/BaseNCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/BaseNCodecInputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/BaseNCodecOutputStream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/BinaryCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/CharSequenceUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/Hex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/binary/StringUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/DigestUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/HmacAlgorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/HmacUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/Md5Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/MessageDigestAlgorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/Sha2Crypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/digest/UnixCrypt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/AbstractCaverphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/Caverphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/Caverphone1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/Caverphone2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/ColognePhonetic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/DaitchMokotoffSoundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/DoubleMetaphone.DoubleMetaphoneResult.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/DoubleMetaphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/MatchRatingApproachEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/Metaphone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/Nysiis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/RefinedSoundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/Soundex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/BeiderMorseEncoder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Lang.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Languages.LanguageSet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Languages.SomeLanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Languages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/NameType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/PhoneticEngine.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Rule.Phoneme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Rule.PhonemeExpr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Rule.PhonemeList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Rule.RPattern.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/Rule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/language/bm/RuleType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/net/BCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/net/QCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/net/QuotedPrintableCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/src-html/org/apache/commons/codec/net/URLCodec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/apidocs/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/commons-codec-1.10-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/commons-codec-1.10-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/commons-codec-1.10-test-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/bin/commons-codec-1.10/commons-codec-1.10-tests.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorSpaceModel.java" afterPath="$PROJECT_DIR$/src/VectorSpaceModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BingAPITest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -272,9 +36,16 @@
       <file leaf-file-name="BingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="4020">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3870">
               <caret line="28" column="29" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="30" />
-              <folding />
+              <folding>
+                <element signature="e#779#798#0" expanded="true" />
+                <element signature="e#2324#2325#0" expanded="true" />
+                <element signature="e#2366#2367#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
+                <element signature="e#2770#2779#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -282,8 +53,8 @@
       <file leaf-file-name="VectorSpaceModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VectorSpaceModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.4864865" vertical-offset="1770" max-vertical-offset="3345">
-              <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.67542213" vertical-offset="0" max-vertical-offset="3315">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#960#976#0" expanded="true" />
                 <element signature="e#1059#1067#0" expanded="true" />
@@ -292,11 +63,11 @@
                 <element signature="e#3094#3102#0" expanded="true" />
                 <element signature="e#3799#3815#0" expanded="true" />
                 <element signature="e#4369#4385#0" expanded="true" />
-                <element signature="e#5587#5606#0" expanded="true" />
-                <element signature="e#6168#6187#0" expanded="true" />
-                <element signature="e#6338#6346#0" expanded="true" />
-                <element signature="e#6701#6702#0" expanded="true" />
-                <element signature="e#6724#6725#0" expanded="true" />
+                <element signature="e#6013#6032#0" expanded="true" />
+                <element signature="e#6594#6613#0" expanded="true" />
+                <element signature="e#6764#6772#0" expanded="true" />
+                <element signature="e#7127#7128#0" expanded="true" />
+                <element signature="e#7150#7151#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -561,7 +332,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BingTest" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="zawDQKZqojUuJJIbEYPbPXSLQkpa2eyJHI9zseVhXT8 0.9 columbia" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -570,7 +341,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="BingAPITest" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -597,7 +374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -605,8 +382,9 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -616,11 +394,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -642,7 +419,17 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/VectorSpaceModel.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -654,7 +441,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3675">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +456,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3675">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -670,7 +471,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3735">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +486,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3240">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,7 +501,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="3240">
           <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +516,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3240">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,22 +531,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3270">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="4020">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3870">
           <caret line="28" column="29" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#779#798#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2770#2779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VectorSpaceModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4864865" vertical-offset="1770" max-vertical-offset="3345">
-          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.67542213" vertical-offset="0" max-vertical-offset="3345">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#960#976#0" expanded="true" />
             <element signature="e#1059#1067#0" expanded="true" />
@@ -726,11 +569,11 @@
             <element signature="e#3094#3102#0" expanded="true" />
             <element signature="e#3799#3815#0" expanded="true" />
             <element signature="e#4369#4385#0" expanded="true" />
-            <element signature="e#5587#5606#0" expanded="true" />
-            <element signature="e#6168#6187#0" expanded="true" />
-            <element signature="e#6338#6346#0" expanded="true" />
-            <element signature="e#6701#6702#0" expanded="true" />
-            <element signature="e#6724#6725#0" expanded="true" />
+            <element signature="e#6013#6032#0" expanded="true" />
+            <element signature="e#6594#6613#0" expanded="true" />
+            <element signature="e#6764#6772#0" expanded="true" />
+            <element signature="e#7127#7128#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
           </folding>
         </state>
       </provider>

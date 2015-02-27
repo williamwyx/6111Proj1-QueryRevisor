@@ -141,23 +141,21 @@ public class VectorSpaceModel {
 		for (HashMap<String, Double> doc : relVecs) {
 			for (Map.Entry<String, Double> entry : doc.entrySet()) {
 				if (!newQueryVec.containsKey(entry.getKey()))
-					newQueryVec.put(entry.getKey(), entry.getValue() * b
-							/ docs.get(1).size());
+					//newQueryVec.put(entry.getKey(), entry.getValue() * b / (docs.get(1).size()));
+					newQueryVec.put(entry.getKey(), entry.getValue() * b / (1 + Math.log(docs.get(1).size())));
 				else
-					newQueryVec.put(entry.getKey(),
-							newQueryVec.get(entry.getKey()) + entry.getValue()
-									* b / docs.get(1).size());
+					//newQueryVec.put(entry.getKey(), newQueryVec.get(entry.getKey()) + entry.getValue() * b / (docs.get(1).size()));
+					newQueryVec.put(entry.getKey(), newQueryVec.get(entry.getKey()) + entry.getValue() * b / (1 + Math.log(docs.get(1).size())));
 			}
 		}
 		for (HashMap<String, Double> doc : unrVecs) {
 			for (Map.Entry<String, Double> entry : doc.entrySet()) {
 				if (!newQueryVec.containsKey(entry.getKey()))
-					newQueryVec.put(entry.getKey(), entry.getValue() * c
-							/ docs.get(0).size());
+					//newQueryVec.put(entry.getKey(), entry.getValue() * c / (docs.get(0).size()));
+					newQueryVec.put(entry.getKey(), entry.getValue() * c / (1 + Math.log(docs.get(0).size())));
 				else
-					newQueryVec.put(entry.getKey(),
-							newQueryVec.get(entry.getKey()) + entry.getValue()
-									* c / docs.get(0).size());
+					//newQueryVec.put(entry.getKey(), newQueryVec.get(entry.getKey()) + entry.getValue() * c / (docs.get(0).size()));
+					newQueryVec.put(entry.getKey(), newQueryVec.get(entry.getKey()) + entry.getValue() * c / (1 + Math.log(docs.get(0).size())));
 			}
 		}
 		for (String word : query.toLowerCase().split(" ")) {

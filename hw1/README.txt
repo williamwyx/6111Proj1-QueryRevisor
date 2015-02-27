@@ -57,7 +57,8 @@ e. Description of query modification method
 2. We only use term frequency to indicate the weight of words in each document. The reason we choose tf instead of tf-idf is the number of documents is only ten and data volume is not large. Critical words will appears in most of the document if the search result is decent. Thus the effect of just tf is better than tf-idf in our case. 
 3. We increase the weight of word whose adjancent word in query to 2. For example, the query is "columbia", a document contains "columbia university in the city of new york........". We count the number of appearance of word "university" as 2 because its adjancent word "columbia" is in the query. 
 4. We set upper bound of the term freqency in each document to 4 because we believe it is meanless that a word appears too many times in a single document. By doing this, we can prevent a document from increasing their ranking by delibrately putting to much key words in summary. 
-5. Every time we expand the query by adding 2 words. We rearrange the order of words in new query according to the order of the weight in the new query vector
+5. The formula to calculate weight is : tf * b / (1 + log(#relevant docs)) - tf * c / (1 + log(#unrelevant docs))
+6. Every time we expand the query by adding 2 words. We rearrange the order of words in new query according to the order of the weight in the new query vector
 
 
 =====================================================

@@ -55,7 +55,7 @@ public class BingTest {
 				System.out.println("No relevant search results.");
 				return;
 			}
-			precision = ret * 1.0 / RESULTNUM; 
+			precision = ret * 1.0 / RESULTNUM;
 		}
 		printFb(precision);
 	}
@@ -185,13 +185,13 @@ public class BingTest {
 		int sum = 0;
 
 		ArrayList<Integer> index = splitResults(content);
-		
+
 		printPara((index.size() - 1) / 2);
-		
+
 		if (index.size() < RESULTNUM * 2 + 1) {
 			return -1;
 		}
-		
+
 		System.out.println("Bing Search Results:");
 		System.out.println("======================");
 		for (int i = 0; i < index.size() - 2; i += 2) {
@@ -211,7 +211,7 @@ public class BingTest {
 		}
 		return sum;
 	}
-	
+
 	private void printFb(double precision) {
 		System.out.println("======================");
 		System.out.println("FEEDBACK SUMMARY");
@@ -222,7 +222,7 @@ public class BingTest {
 		else
 			System.out.println("Desired precision reached, done");
 	}
-	
+
 	private void printPara(int num) {
 		System.out.println("Parameters:");
 		System.out.println("Client key  = " + accountKey);
