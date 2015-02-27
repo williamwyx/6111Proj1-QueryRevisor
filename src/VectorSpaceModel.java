@@ -1,6 +1,13 @@
-import java.lang.reflect.Array;
-import java.util.*;
-import java.io.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class VectorSpaceModel {
 	private final double b = 0.8;
@@ -95,6 +102,9 @@ public class VectorSpaceModel {
 		for (String queryWord : queryArray) {
 			querySet.add(queryWord);
 		}
+		
+		double sum = 0;
+		
 		for (int i = 0; i < docArray.length; i++) {
 			int weight = 1;
 			String word = docArray[i];
@@ -110,11 +120,14 @@ public class VectorSpaceModel {
 
 			// Put tf
 			if (!word.equals("")) {
-				if (!tf.containsKey(word))
+				if (!tf.containsKey(word)) {
 					tf.put(word, weight);
+					sum += weight;
+				}
 				// Limit the maximum tf of a word in one doc up to 4
 				else if (tf.get(word) < 3) {
 					tf.put(word, tf.get(word) + weight);
+					sum += weight;
 				}
 			}
 		}
@@ -124,7 +137,7 @@ public class VectorSpaceModel {
 //			double tf_idf = entry.getValue()
 //					* (1 + Math.log((double) docNum / dict.get(entry.getKey())));
 //			vector.put(entry.getKey(), tf_idf);
-			vector.put(entry.getKey(), entry.getValue()*1.0);
+			vector.put(entry.getKey(), entry.getValue() / sum);
 		}
 		return vector;
 	}
